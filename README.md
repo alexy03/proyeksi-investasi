@@ -40,5 +40,3 @@ Sebuah aplikasi web sederhana untuk menghitung proyeksi investasi jangka panjang
 
 ---
 
-## 📁 Struktur Folder
-
