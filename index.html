@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyeksi Investasi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <label>Jumlah Investasi Awal (Rp)</label>
+    <input type="text" id="amount" value="1.000.000" oninput="formatRupiah(this)">
+
+    <label>Investasi Bulanan (Rp)</label>
+    <input type="text" id="monthly" value="500.000" oninput="formatRupiah(this)">
+
+    <label>Return Investasi tahunan (%)</label>
+    <input type="number" id="rate" value="10">
+
+    <label>Inflasi tahunan (%)</label>
+    <input type="number" id="inflation" value="3">
+
+    <label>Jangka Waktu (Tahun)</label>
+    <input type="number" id="years" value="10">
+
+    <button onclick="calculateProjection()">Hitung</button>
+    <canvas id="investmentChart"></canvas>
+    <p class="description">Normal: Hanya menabung tanpa return, tetap terpengaruh inflasi.<br>Berinvestasi: Terkena inflasi tetapi mendapat return dari investasi.</p>
+
+    <div id="summary" class="summary"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
