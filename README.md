@@ -17,7 +17,7 @@ Sebuah aplikasi web sederhana untuk menghitung proyeksi investasi jangka panjang
 
 
 ## 🌐 Coba Sekarang!  
-🔗 **[Live Demo di GitHub Pages](https://alexy03.github.io/budgeting-calculator/)**
+🔗 **[Live Demo di GitHub Pages](https://alexy03.github.io/proyeksi-investasi/)**
 ---
 
 
