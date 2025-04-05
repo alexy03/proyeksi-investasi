@@ -1,5 +1,4 @@
-# 💰 Proyeksi Investasi - Kalkulator Sederhana
-
+# 💰 Sup! - Proyeksi Investasi
 Sebuah aplikasi web sederhana untuk menghitung proyeksi investasi jangka panjang dan membandingkannya dengan menabung biasa, dengan mempertimbangkan **return investasi** dan **inflasi**.
 
 ---
